@@ -1307,7 +1307,7 @@ while wait() do
                         TextLabel.Size = UDim2.new(0, 200, 0, 50)
                         TextLabel.Font = Enum.Font.GothamBold
                         TextLabel.TextColor3 = Color3.fromRGB(7, 236, 240)
-                        TextLabel.Text.Size = 35
+                        TextLabel.TextSize = 35
                     end
                     local Dis = math.floor((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude)
                     v.MobEap.TextLabel.Text = v.Name.." - "..Dis.." Distance"
@@ -1349,7 +1349,7 @@ while wait() do
                         TextLabel.Size = UDim2.new(0, 200, 0, 50)
                         TextLabel.Font = Enum.Font.GothamBold
                         TextLabel.TextColor3 = Color3.fromRGB(7, 236, 240)
-                        TextLabel.Text.Size = 35
+                        TextLabel.TextSize = 35
                     end
                     local Dis = math.floor((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude)
                     v.Seaesps.TextLabel.Text = v.Name.." - "..Dis.." Distance"
@@ -1391,7 +1391,7 @@ while wait() do
                         TextLabel.Size = UDim2.new(0, 200, 0, 50)
                         TextLabel.Font = Enum.Font.GothamBold
                         TextLabel.TextColor3 = Color3.fromRGB(7, 236, 240)
-                        TextLabel.Text.Size = 35
+                        TextLabel.TextSize = 35
                     end
                     local Dis = math.floor((game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.HumanoidRootPart.Position).Magnitude)
                     v.NpcEspes.TextLabel.Text = v.Name.." - "..Dis.." Distance"
